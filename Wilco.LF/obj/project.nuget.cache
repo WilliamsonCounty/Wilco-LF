@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pvHQP7kJTxDLruzYrQ93aiYahYsN+69O2NaPfNqhALVKt97zHxmuIkod9iKIZYndGEhFvqkIjKEsr/ZPk5scSw==",
+  "success": true,
+  "projectFilePath": "C:\\VS\\source\\DEMS\\LIBRARIES\\Wilco-LF\\Wilco.LF\\Wilco.LF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sgietz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

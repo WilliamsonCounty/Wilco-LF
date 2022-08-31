@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Wilco-Common\Wilco\Wilco.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Laserfiche.DocumentServices">
+      <HintPath>..\..\..\..\..\..\Program Files\Laserfiche\SDK 10.4\bin\10.4\net-4.0\Laserfiche.DocumentServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Laserfiche.RepositoryAccess">
+      <HintPath>..\..\..\..\..\..\Program Files\Laserfiche\SDK 10.4\bin\10.4\net-4.0\Laserfiche.RepositoryAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

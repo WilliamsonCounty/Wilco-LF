@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Wilco.LF/1.0.0": {
+        "dependencies": {
+          "Wilco": "1.0.0",
+          "Laserfiche.DocumentServices": "10.4.0.0",
+          "Laserfiche.RepositoryAccess": "10.4.0.0"
+        },
+        "runtime": {
+          "Wilco.LF.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Wilco/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "Wilco.dll": {}
+        }
+      },
+      "Laserfiche.DocumentServices/10.4.0.0": {
+        "runtime": {
+          "Laserfiche.DocumentServices.dll": {
+            "assemblyVersion": "10.4.0.0",
+            "fileVersion": "10.4.2.103"
+          }
+        }
+      },
+      "Laserfiche.RepositoryAccess/10.4.0.0": {
+        "runtime": {
+          "Laserfiche.RepositoryAccess.dll": {
+            "assemblyVersion": "10.4.0.0",
+            "fileVersion": "10.4.2.103"
+          }
+        }
+      },
+      "Laserfiche.HttpClient/10.4.0.0": {
+        "runtime": {
+          "Laserfiche.HttpClient.dll": {
+            "assemblyVersion": "10.4.0.0",
+            "fileVersion": "10.4.2.103"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Wilco.LF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Wilco/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Laserfiche.DocumentServices/10.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Laserfiche.RepositoryAccess/10.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Laserfiche.HttpClient/10.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
