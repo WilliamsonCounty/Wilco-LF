@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Wilco-Common\Wilco\Wilco.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="Laserfiche.DocumentServices">
       <HintPath>..\..\..\..\..\..\Program Files\Laserfiche\SDK 10.4\bin\10.4\net-4.0\Laserfiche.DocumentServices.dll</HintPath>
     </Reference>
